@@ -1,0 +1,41 @@
+## Method 1: Recursive Approach
+Advantages:
+
+    Simple and intuitive implementation.
+    Directly follows the recurrence relation.
+
+Disadvantages:
+
+    Exponential time complexity due to repeated recalculations of the same values.
+    Inefficient for large values of n.
+
+## Method 2: Memoization (Top-down Dynamic Programming)
+Advantages:
+
+    Avoids redundant calculations by storing previously computed results.
+    Significantly reduces time complexity, making it feasible for larger values of n.
+
+Disadvantages:
+
+    Uses extra space for the memoization table.
+    Recursive stack can still cause stack overflow for very large n.
+
+## Method 3: Bottom-up Approach (Iterative)
+Advantages:
+
+    Avoids recursion and its associated overhead.
+    Efficient use of space as it only stores necessary values.
+    Linear time complexity, suitable for large n.
+
+Disadvantages:
+
+    Less intuitive compared to the recursive approach.
+    Might be a bit harder to implement for more complex recurrence relations.
+
+## Overall Comparison:
+
+- The Recursive approach is the simplest to understand and implement but suffers from exponential time complexity.
+- Memoization improves the time complexity by avoiding redundant calculations but still has some limitations regarding stack overflow and space usage.
+- The Bottom-up iterative approach provides the best time and space complexity, making it suitable for larger n. However, it might not be as intuitive as the recursive approach.
+
+The choice between these approaches depends on the trade-off between simplicity and efficiency in specific use case. If efficiency is crucial, the bottom-up approach is generally the best choice. If simplicity and clarity are more important, the recursive approach might suffice for small input values. Memoization is a good compromise when need to improve the recursive approach's efficiency without transitioning to a full iterative solution.
