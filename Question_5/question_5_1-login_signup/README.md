@@ -1,5 +1,7 @@
 # Registration and Login Form MERN Stack
 
+*live preview* : https://apache-age-internship-coding-test.vercel.app/
+
 This project implements a registration and login form using the MERN stack.
 
 ## Installation
@@ -19,7 +21,7 @@ This project implements a registration and login form using the MERN stack.
    ``` npm run dev   ```
 
 
-4. Access the application in your web browser by visiting [http://localhost:5173/](http://localhost:5173/).
+4. Access the application in your web browser
 
 ### Backend
 
